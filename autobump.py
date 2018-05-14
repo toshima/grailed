@@ -1,3 +1,9 @@
+"""
+Display your grailed listings and bumps them where possible
+
+Usage: python autobump.py <your email> <your password>
+
+"""
 
 import argparse
 import requests
