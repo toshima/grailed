@@ -17,10 +17,12 @@ if __name__ == '__main__':
 
     data = {'email': args.email, 'password': args.password}
     resp = session.post("https://www.grailed.com/api/sign_in", data=data)
-    login = resp.json()['data']
+    data = resp.json()
+    if 'error' in data:
+        raise ValueError(data['error'])
 
     url = ("https://www.grailed.com/api/users/{}/wardrobe"
-           .format(login['user']['id']))
+           .format(data['data']['user']['id']))
     resp = session.get(url)
     items = resp.json()['data']
     for item in items:
