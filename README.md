@@ -4,6 +4,6 @@ Python script that displays your grailed listings and bumps them where possible.
 ```
 $ python autobump.py <your email> <your password>
 Uniqlo Gray Sweatshirt                         $ 20     ❤ 25
-Uniqlo Button-down shirt                       $ 19     ❤ 30
-Uniqlo Navy Jacket                             $ 59     ❤ 17
+Uniqlo Button-down shirt                       $ 19     ❤ 30    bumped! 
+Uniqlo Navy Jacket                             $ 59     ❤ 17    bumped!
 ```
