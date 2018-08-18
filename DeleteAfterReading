@@ -1,0 +1,18 @@
+Hey! My name is Tom, and I am a software engineering student at Temple University in Philadelphia.
+
+You don't have any of your contact information listed, so this was the only way I could think of to get to you. I am sure you are very busy
+so I will be brief.
+
+I was going to make something similar, but all of my ideas were centered around using selenium webdriver as grailed doesn't have a public
+API. When I came across your software I noticed that you're accessing their API - the better solution.
+
+My question is: How did you find the API? 
+I scanned all the network requests that the site makes using chrome developer tools, but couldn't find any calls to the url you use to
+send requests to their API.
+
+I love this sort of thing, and really want to know more, but I don't know where to start to learn. Would you suggest a resource that could
+be a good place to start?
+
+Thank you, and good hacking!
+Tom McLaughlin
+tom.mcirish@gmail.com
